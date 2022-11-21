@@ -18,7 +18,16 @@ body {
   width: 100vw;
   height: 100vh;
 }
-
+a,
+a:visited {
+  color: lightskyblue;
+  text-decoration: none;
+  transition: 0.5s;
+}
+a:hover {
+  color: gray;
+  transform: scale(2);
+}
 /* Menu */
 
 header {
@@ -107,6 +116,7 @@ header nav ul {
   display: flex;
   flex-direction: column;
   height: 20rem;
+  background-color: #f6f6f6;
   /* background-image: url(../jacke.webp); */
 }
 .image-container :first-child {
