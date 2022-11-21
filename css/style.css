@@ -1,0 +1,145 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&family=Sedgwick+Ave&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0,3s;
+}
+:root{
+  --boos-fav-color:orange;
+  --border-value:2px dashed red;
+
+}
+
+/* body */
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  height: 100vh;
+ }
+
+.logo{
+
+}
+
+ .logo{
+  border: var(--border-value);
+  flex-grow: 1;
+ }
+ .logo :first-child{
+  font-family: 'Courier New', Courier, monospace
+  cursive;
+  font-weight: 900;
+  font-size: 2rem;
+ }
+ .logo :last-child{
+  color: var(--boos-fav-color);
+  font-size: 1.5em;
+  font-family: "Pacifico", cursive;
+ }
+
+ header{
+
+ }
+
+ header{
+  display: flex;
+  justify-content: flex-end;
+ }
+ header nav{
+  flex-grow: 2;
+ }
+ header nav ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+ }
+ header nav a{
+  text-decoration: none;
+ }
+
+ .main-container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-container article{
+  height: 75vh;
+  border: var(--border-value);
+}
+
+.main-intro {
+  padding-top: 20vh;
+  color: var(--border-value);
+  line-height: 5.5vh;
+  font-size: 1.5rem;
+}
+
+.main-intro{
+  width: 50vh;
+  color: black;
+}
+
+.main-intro a {
+  color: var(--boos-fav-color);
+  text-decoration: none;
+}
+.products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100vw;
+}
+.story{
+  flex-direction: column;
+
+}.story div{
+  width: 100%;
+  width: 40%;
+  background-color: gray;
+}
+
+.products div{
+    height: 50%;
+  border-radius: 2px;
+  border-radius: 2rem;
+}
+
+footer{
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+footer nav ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+}
+
+footer nav li{
+  flex-wrap: 1;
+  border: 2px solid red;
+}
+
+footer hr {
+  width: 100%;
+}
+
+footer a{
+
+}
+
+footer div{
+  margin-top: 2%;
+}
